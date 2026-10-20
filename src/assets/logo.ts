@@ -1,0 +1,26 @@
+/** Sahyadri Wholesale Fataka logo: Garuda with spread wings. Used in the header, the favicon and the PDF. */
+export const LOGO_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Sahyadri Wholesale Fataka logo">
+  <circle cx="60" cy="60" r="58" fill="#14532d"/>
+  <circle cx="60" cy="60" r="53" fill="none" stroke="#f2b632" stroke-width="2.5"/>
+  <defs>
+    <path id="wing" d="M64 54 C70 44 78 32 90 22 L90 31 L98 33 L93 40 L100 45 L93 49 L98 56 L89 57 L91 65 L82 62 L80 70 L72 63 L66 70 Z"/>
+  </defs>
+  <g fill="#f2b632" stroke="#14532d" stroke-width="1.4" stroke-linejoin="round">
+    <use href="#wing"/>
+    <use href="#wing" transform="translate(120 0) scale(-1 1)"/>
+    <path d="M53 82 L46 102 L56 95 L60 104 L64 95 L74 102 L67 82 Z"/>
+    <path d="M60 44 C69 48 70 64 65 76 L60 90 L55 76 C50 64 51 48 60 44 Z"/>
+    <path d="M54 34 L48 24 L57 29 L55 21 L62 28 Z"/>
+    <circle cx="60" cy="37" r="6.8"/>
+    <path d="M64 33.5 C70 32.5 77 35 78 41 C75.5 39.5 73 40 71 42 L65 41 Z" fill="#e8892b"/>
+  </g>
+  <g stroke="#14532d" stroke-width="1.6" stroke-linecap="round" fill="none">
+    <path d="M68 55 C75 49 82 44 90 40"/>
+    <path d="M67 61 C75 57 83 54 91 52"/>
+    <path d="M52 55 C45 49 38 44 30 40"/>
+    <path d="M53 61 C45 57 37 54 29 52"/>
+    <path d="M60 52 L60 78"/>
+    <path d="M62.5 33.5 L66 32.5" stroke-width="1.3"/>
+  </g>
+  <circle cx="63" cy="36" r="1.5" fill="#14532d"/>
+</svg>`;
